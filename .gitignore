@@ -1,0 +1,8 @@
+*.exe
+*.bin
+*.zip
+release/
+runtime/
+models/
+.DS_Store
+

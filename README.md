@@ -12,11 +12,15 @@ Windows용 오프라인 음성 전사 프로그램입니다.
 
 ## Download
 
-최신 설치 파일은 GitHub Releases에서 받을 수 있습니다.
+대부분의 사용자는 아래 **full 버전**을 받으면 됩니다.
 
-- `codex_stt_v3_1.0.0_full.exe`: 전체 기능 설치본
-- `codex_stt_v3_1.0.0_safe.exe`: torch DLL 문제가 있는 PC용 안전 설치본
-- `ggml-large-v3-turbo-q5_0.bin`: 선택 설치용 whisper.cpp 추가 모델
+- [codex_stt_v3_1.0.0_full.exe](https://github.com/kknas1/local-stt-win/releases/download/v3.0.0/codex_stt_v3_1.0.0_full.exe): 전체 기능 설치본. 일반적으로 이 파일을 권장합니다.
+- [codex_stt_v3_1.0.0_safe.exe](https://github.com/kknas1/local-stt-win/releases/download/v3.0.0/codex_stt_v3_1.0.0_safe.exe): full 버전에서 torch DLL 오류가 나는 PC용 안전 설치본입니다.
+- [ggml-large-v3-turbo-q5_0.bin](https://github.com/kknas1/local-stt-win/releases/download/v3.0.0/ggml-large-v3-turbo-q5_0.bin): 선택 설치용 whisper.cpp 추가 모델입니다.
+
+릴리즈 페이지에서 직접 확인하려면 아래 주소를 사용하세요.
+
+- [Local STT Windows v3.0.0 Release](https://github.com/kknas1/local-stt-win/releases/tag/v3.0.0)
 
 ## 주요 기능
 
@@ -37,9 +41,9 @@ Windows용 오프라인 음성 전사 프로그램입니다.
 
 ## 설치 방법
 
-1. GitHub Releases에서 설치 파일을 다운로드합니다.
-2. 보통은 `codex_stt_v3_1.0.0_full.exe`를 실행합니다.
-3. torch DLL 오류가 나는 PC에서는 `codex_stt_v3_1.0.0_safe.exe`를 사용합니다.
+1. [codex_stt_v3_1.0.0_full.exe](https://github.com/kknas1/local-stt-win/releases/download/v3.0.0/codex_stt_v3_1.0.0_full.exe)를 다운로드합니다.
+2. 다운로드한 `codex_stt_v3_1.0.0_full.exe`를 실행합니다.
+3. full 버전에서 torch DLL 오류가 나는 PC에서는 [codex_stt_v3_1.0.0_safe.exe](https://github.com/kknas1/local-stt-win/releases/download/v3.0.0/codex_stt_v3_1.0.0_safe.exe)를 사용합니다.
 4. 설치 화면 안내에 따라 설치합니다.
 
 기본 설치 위치는 다음과 같습니다.
@@ -200,4 +204,3 @@ models\
 ## License
 
 이 프로젝트 자체 코드는 별도 LICENSE를 따릅니다. 포함된 오픈소스 라이브러리와 모델의 라이선스는 `NOTICE.md`를 확인하세요.
-

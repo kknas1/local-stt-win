@@ -17,8 +17,8 @@ Windows용 오프라인 음성 전사 프로그램입니다.
 
 대부분의 사용자는 아래 **full 버전**을 받으면 됩니다.
 
-- [codex_stt_v3_1.0.0_full.exe](https://github.com/kknas1/local-stt-win/releases/download/v3.0.0/codex_stt_v3_1.0.0_full.exe): 전체 기능 설치본. 일반적으로 이 파일을 권장합니다.
-- [codex_stt_v3_1.0.0_safe.exe](https://github.com/kknas1/local-stt-win/releases/download/v3.0.0/codex_stt_v3_1.0.0_safe.exe): full 버전에서 torch DLL 오류가 나는 PC용 안전 설치본입니다.
+- [local_stt_v3_1.0.0_full.exe](https://github.com/kknas1/local-stt-win/releases/download/v3.0.0/local_stt_v3_1.0.0_full.exe): 전체 기능 설치본. 일반적으로 이 파일을 권장합니다.
+- [local_stt_v3_1.0.0_safe.exe](https://github.com/kknas1/local-stt-win/releases/download/v3.0.0/local_stt_v3_1.0.0_safe.exe): full 버전에서 torch DLL 오류가 나는 PC용 안전 설치본입니다.
 - [ggml-large-v3-turbo-q5_0.bin](https://github.com/kknas1/local-stt-win/releases/download/v3.0.0/ggml-large-v3-turbo-q5_0.bin): 선택 설치용 whisper.cpp 추가 모델입니다.
 
 릴리즈 페이지에서 직접 확인하려면 아래 주소를 사용하세요.
@@ -44,9 +44,9 @@ Windows용 오프라인 음성 전사 프로그램입니다.
 
 ## 설치 방법
 
-1. [codex_stt_v3_1.0.0_full.exe](https://github.com/kknas1/local-stt-win/releases/download/v3.0.0/codex_stt_v3_1.0.0_full.exe)를 다운로드합니다.
-2. 다운로드한 `codex_stt_v3_1.0.0_full.exe`를 실행합니다.
-3. full 버전에서 torch DLL 오류가 나는 PC에서는 [codex_stt_v3_1.0.0_safe.exe](https://github.com/kknas1/local-stt-win/releases/download/v3.0.0/codex_stt_v3_1.0.0_safe.exe)를 사용합니다.
+1. [local_stt_v3_1.0.0_full.exe](https://github.com/kknas1/local-stt-win/releases/download/v3.0.0/local_stt_v3_1.0.0_full.exe)를 다운로드합니다.
+2. 다운로드한 `local_stt_v3_1.0.0_full.exe`를 실행합니다.
+3. full 버전에서 torch DLL 오류가 나는 PC에서는 [local_stt_v3_1.0.0_safe.exe](https://github.com/kknas1/local-stt-win/releases/download/v3.0.0/local_stt_v3_1.0.0_safe.exe)를 사용합니다.
 4. 설치 화면 안내에 따라 설치합니다.
 
 기본 설치 위치는 다음과 같습니다.
@@ -151,7 +151,7 @@ ggml-large-v3-turbo-q5_0.bin
 새로 설치할 때는 설치 파일과 같은 폴더에 모델 파일을 함께 둘 수도 있습니다.
 
 ```text
-codex_stt_v3_1.0.0_full.exe
+local_stt_v3_1.0.0_full.exe
 ggml-large-v3-turbo-q5_0.bin
 ```
 
@@ -164,7 +164,7 @@ ggml-large-v3-turbo-q5_0.bin
 또는 설치 파일 옆에 `models` 폴더를 만들고 모델 구조를 넣을 수도 있습니다.
 
 ```text
-codex_stt_v3_1.0.0_full.exe
+local_stt_v3_1.0.0_full.exe
 models\
   whispercpp\
     ggml-large-v3-turbo-q5_0.bin

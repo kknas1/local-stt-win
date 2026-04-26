@@ -2,8 +2,8 @@
 
 ## Release Assets
 
-- `codex_stt_v3_1.0.0_full.exe`
-- `codex_stt_v3_1.0.0_safe.exe`
+- `local_stt_v3_1.0.0_full.exe`
+- `local_stt_v3_1.0.0_safe.exe`
 - `ggml-large-v3-turbo-q5_0.bin`
 
 ## 변경사항
@@ -53,8 +53,8 @@
 릴리즈 업로드 파일의 SHA256입니다.
 
 ```text
-codex_stt_v3_1.0.0_full.exe  SHA256: 7437e3124b2d23cfe3dc4944c5b0bd4a622b56da0554550cf0a15e5b9508e64b
-codex_stt_v3_1.0.0_safe.exe  SHA256: d2dd37528ae012b6f317ac95779441c457990528d86a65f1484c43cbcd3c570e
+local_stt_v3_1.0.0_full.exe  SHA256: 7437e3124b2d23cfe3dc4944c5b0bd4a622b56da0554550cf0a15e5b9508e64b
+local_stt_v3_1.0.0_safe.exe  SHA256: d2dd37528ae012b6f317ac95779441c457990528d86a65f1484c43cbcd3c570e
 ggml-large-v3-turbo-q5_0.bin SHA256: 394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2
 ```
 
